@@ -1,0 +1,102 @@
+{
+  "address": {
+    "name": "Yohans Hailu Kasaw",
+    "phone": "+251-929-260-704",
+    "email": "yohanshailukasaw@gmail.com",
+    "location": "Addis Ababa, Ethiopia",
+    "linkedin": "https://www.linkedin.com/in/yohans-hailu/",
+    "github": "https://github.com/YohansHailu"
+  },
+  "summary": "Backend-Focused Software Engineer with 4+ years of experience building scalable Node.js applications and microservices. Excels in designing RESTful APIs, integrating cloud services (AWS, GCP), and collaborating with cross-functional teams. Recognized for top-tier problem-solving (Top 2.5% on LeetCode) and a focus on high availability, performance, and secure deployments.",
+  "education": {
+    "items": [
+      {
+        "institution": "Addis Ababa University | Computer Engineering",
+        "period": "06/2021",
+        "details": [
+          "🏅 GPA: 3.79, Top 4% of class."
+        ]
+      },
+      {
+        "institution": "A2SV | Competitive Programming",
+        "period": "10/2021 - 09/2022",
+        "details": [
+          "Sharpened data structures and algorithms proficiency in Python, Go, and C++ through 1,000+ problems, reinforcing ability to rapidly solve complex backend logic.",
+          "Secured Top 2.5% LeetCode status by demonstrating exceptional analytical skills, teamwork, and a dedication to continuous improvement in software development."
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "items": [
+      {
+        "role": "OwlBox AI | Backend Developer",
+        "period": "04/2023 - Present",
+        "details": [
+          "Architected scalable Node.js microservices integrated with AWS (Lambda, S3, EC2) and GCP for robust data processing, ensuring high availability and performance optimizations.",
+          "Built RESTful APIs leveraging TypeScript and Express.js for seamless data exchange across multiple frontends, coupled with Jest for unit and integration testing.",
+          "Implemented Docker and Kubernetes for containerization and orchestration, reducing infrastructure complexities and streamlining deployment pipelines."
+        ]
+      },
+      {
+        "role": "Africa to Silicon Valley | Backend & Team Lead",
+        "period": "06/2021 - 04/2023",
+        "details": [
+          "Spearheaded the backend development of RateEat using Node.js and NestJS with MongoDB and Redis, introducing microservices that efficiently handled food delivery workflows in an emerging market.",
+          "Oversaw database optimizations in PostgreSQL and MySQL, improving query performance by 30% and ensuring reliable transaction handling in distributed systems.",
+          "Collaborated directly with junior developers, establishing coding standards, performing code reviews, and guiding best practices for continuous integration and deployment (GitHub Actions, Docker)."
+        ]
+      },
+      {
+        "role": "Eskalate | Software Engineer Intern",
+        "period": "12/2020 - 07/2021",
+        "details": [
+          "Developed backend services in Node.js and Python (Flask), focusing on secure authentication (JWT/OAuth) and flexible schema design with PostgreSQL and MySQL.",
+          "Elevated application resilience by adopting TDD methodologies with Mocha, Chai, and Jest, resulting in a 20% decrease in production bugs and improved developer confidence.",
+          "Participated in cross-team architectural discussions, integrating containerized services with Docker and Kubernetes for improved scalability."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "items": [
+      {
+        "role": "EzyPay",
+        "details": [
+          "Introduced a Node.js microservice architecture to power mobile payment systems in Ethiopia, employing AWS Lambda and S3 for cost-effective data handling.",
+          "Implemented TypeScript to enhance maintainability and developer productivity, ensuring consistent coding standards across services."
+        ]
+      },
+      {
+        "role": "RateEat",
+        "details": [
+          "Led backend implementation with NestJS and GraphQL for real-time restaurant ratings, enabling faster data retrieval and improved user interaction.",
+          "Integrated performance tuning with Redis caching and load balancing strategies, achieving a 25% boost in overall API response times."
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "items": [
+      {
+        "details": [
+          "Programming Languages: JavaScript, TypeScript, Python, Go, C/C++, Bash/Shell scripting",
+          "Backend & Frameworks: Node.js, Express.js, NestJS, Flask, RESTful APIs, GraphQL",
+          "Databases: PostgreSQL, MySQL, MongoDB, Redis",
+          "Cloud & DevOps: AWS (Lambda, S3, EC2, EKS), GCP, Docker, Kubernetes, GitHub Actions",
+          "Methodologies & Tools: Microservices Architecture, TDD, CI/CD, Agile (Scrum/Kanban), Git"
+        ]
+      }
+    ]
+  },
+  "achievements": {
+    "items": [
+      {
+        "details": [
+          "Maintained a top 2.5% global ranking on LeetCode, reflecting strong analytical and backend problem-solving competencies.",
+          "Consistently led development teams across multiple projects, promoting code quality, scalable architectures, and prompt delivery."
+        ]
+      }
+    ]
+  }
+}

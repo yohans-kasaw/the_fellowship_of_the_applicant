@@ -1,0 +1,98 @@
+{
+  "address": {
+    "name": "Yohans Hailu Kasaw",
+    "phone": "+251-929-260-704",
+    "email": "yohanshailukasaw@gmail.com",
+    "location": "Addis Ababa, Ethiopia",
+    "linkedin": "https://www.linkedin.com/in/yohans-hailu/",
+    "github": "https://github.com/YohansHailu"
+  },
+  "summary": "Versatile Software Engineer with 4+ years of experience in full-stack development, specializing in building scalable systems and improving developer workflows. Proficient in modern web technologies, CI/CD pipelines, and cloud infrastructure. Adept at identifying inefficiencies and implementing robust solutions to optimize build processes and deployments.",
+  "education": {
+    "items": [
+      {
+        "institution": "Addis Ababa University | Computer Engineering",
+        "period": "06/2021",
+        "details": ["🏅 GPA: 3.79, Top 4% of class."]
+      },
+      {
+        "institution": "A2SV | Competitive Programming",
+        "period": "10/2021 - 09/2022",
+        "details": [
+          "Mastered algorithms and data structures, achieving Top 2.5% LeetCode ranking and solving 1,000+ coding challenges.",
+          "Strengthened problem-solving, teamwork, and software engineering skills through intensive training."
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "items": [
+      {
+        "role": "OwlBox AI | Software Engineer",
+        "period": "04/2023 - Present",
+        "details": [
+          "Enhanced developer productivity by streamlining CI/CD pipelines with GitHub Actions and Docker, ensuring seamless AWS deployments (Lambda, EC2, S3, RDS).",
+          "Optimized build processes across the stack, reducing compile and test times by 18%.",
+          "Developed scalable backend systems using Flask and Node.js, improving task management and system reliability."
+        ]
+      },
+      {
+        "role": "Africa to Silicon Valley | Software Engineer and Educator",
+        "period": "06/2021 - 04/2023",
+        "details": [
+          "Redesigned deployment pipelines for RateEat and EzyPay using Kubernetes and Docker, increasing system uptime by 15%.",
+          "Architected and scaled backend systems with Node.js, Redis, and MongoDB, enabling seamless microservices integration.",
+          "Identified inefficiencies in build and deployment processes, implementing tools and scripts that enhanced team productivity."
+        ]
+      },
+      {
+        "role": "Eskalate | Software Engineer Intern",
+        "period": "12/2020 - 07/2021",
+        "details": [
+          "Built modular, secure RESTful APIs with Flask, PostgreSQL, and Docker, supporting scalable deployments.",
+          "Improved CI/CD workflows by integrating Jenkins and Kubernetes, reducing deployment errors by 20%.",
+          "Collaborated with cross-functional teams to enhance application stability through advanced testing frameworks."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "items": [
+      {
+        "role": "EzyPay",
+        "details": [
+          "Optimized payment system performance with Go, enhancing transaction reliability and scalability."
+        ]
+      },
+      {
+        "role": "RateEat",
+        "details": [
+          "Developed dynamic restaurant rating and review features using React and Redux, improving user engagement."
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "items": [
+      {
+        "details": [
+          "Programming Languages: Python, Go, JavaScript, TypeScript, C++, Rust, Bash/Shell scripting",
+          "Web Technologies: HTML5, CSS3, React, Next.js, Redux, TypeScript, Vue.js, WebAssembly",
+          "Backend Technologies: Node.js, Flask, FastAPI, RESTful APIs, GraphQL, WebSockets",
+          "Cloud Technologies and DevOps: AWS (Lambda, S3, EC2, RDS), Docker, Kubernetes, GitHub Actions, Jenkins, PostgreSQL, MongoDB, Redis",
+          "Tools: cmake, yarn, Kubernetes, Linux tooling"
+        ]
+      }
+    ]
+  },
+  "achievements": {
+    "items": [
+      {
+        "details": [
+          "Achieved Top 2.5% ranking in LeetCode global programming competition, showcasing expertise in Python and Go.",
+          "Reduced system deployment times by over 25% through innovative CI/CD pipeline optimizations."
+        ]
+      }
+    ]
+  }
+}

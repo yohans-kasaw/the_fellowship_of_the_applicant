@@ -1,0 +1,101 @@
+{
+  "address": {
+    "name": "Yohans Hailu Kasaw",
+    "phone": "+251-929-260-704",
+    "email": "yohanshailukasaw@gmail.com",
+    "location": "Addis Ababa, Ethiopia",
+    "linkedin": "https://www.linkedin.com/in/yohans-hailu/",
+    "github": "https://github.com/YohansHailu"
+  },
+  "summary": "Freelance Software Engineer with 4+ years of hands-on experience building dynamic web solutions, including custom browser-based tools. Adept at delivering seamless user experiences by leveraging JavaScript, HTML5, CSS3, and modern frameworks. Skilled in API development, microservices architecture, and cloud deployment, with a proven record of problem-solving (Top 2.5% on LeetCode). Enthusiastic about optimizing workflows through specialized extensions and collaborative, remote-friendly projects that fuel creative innovation.",
+  "education": {
+    "items": [
+      {
+        "institution": "Addis Ababa University | Computer Engineering",
+        "period": "06/2021",
+        "details": [
+          "🏅 GPA: 3.79, Top 4% of class."
+        ]
+      },
+      {
+        "institution": "A2SV | Competitive Programming",
+        "period": "10/2021 - 09/2022",
+        "details": [
+          "Mastered data structures and algorithms (trees, graphs, Dijkstra’s) with Python, Go, and C++, enabling robust and efficient software solutions.",
+          "Achieved Top 2.5% LeetCode and Codeforces ratings by tackling 1,000+ algorithmic challenges and participating in multiple A2SV competitions—demonstrating exceptional problem-solving and teamwork."
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "items": [
+      {
+        "role": "OwlBox AI | Software Engineer & Browser Extension Developer",
+        "period": "04/2023 - Present",
+        "details": [
+          "Designed and implemented a custom Chrome extension to streamline an AI-driven video annotation workflow, leveraging JavaScript, HTML5, CSS3, and the Chrome Extension API for seamless user interactions.",
+          "Developed a robust microservices backend with Flask and Node.js to integrate annotation data, integrating Celery for asynchronous tasks, while managing CI/CD with GitHub Actions for AWS deployments (Lambda, EC2, S3, RDS).",
+          "Enhanced productivity for a remote, cross-functional team by introducing secure data handling protocols and user-friendly extension interfaces, resulting in a 20% reduction in manual processes."
+        ]
+      },
+      {
+        "role": "Africa to Silicon Valley | Head of Education & Software Engineer",
+        "period": "06/2021 - 04/2023",
+        "details": [
+          "Led frontend development for HakimHub using React, Next.js, TypeScript, and Redux, integrating features such as real-time notifications and embedded media while emphasizing scalability and maintainability.",
+          "Architected and scaled Node.js microservices on Google Cloud Platform (GCP) for RateEat, employing MongoDB, Redis, and Kubernetes to handle high-traffic restaurant rating data securely and efficiently.",
+          "Oversaw the full-stack development of EzyPay with Next.js, React, and Go on AWS, incorporating Docker for containerized deployments and ensuring a 99.9% uptime for payment processing services."
+        ]
+      },
+      {
+        "role": "Eskalate | Software Engineer Intern",
+        "period": "12/2020 - 07/2021",
+        "details": [
+          "Built and deployed RESTful APIs using Flask, SQLAlchemy, and PostgreSQL, focusing on modular design and enhanced security for web-based applications.",
+          "Reduced bug incidence by implementing robust QA frameworks (Selenium, Jest, Cypress, and Postman) within Continuous Integration pipelines (Jenkins, GitHub Actions), improving software stability across browsers."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "items": [
+      {
+        "role": "EzyPay",
+        "details": [
+          "Boosted efficiency for mobile payment services in Ethiopia by implementing high-performance backend services in Go.",
+          "Utilized containerization and AWS integrations to ensure consistent, scalable deployments."
+        ]
+      },
+      {
+        "role": "RateEat",
+        "details": [
+          "Developed a dynamic React-based UI for crowd-sourced restaurant ratings and reviews.",
+          "Integrated RESTful API endpoints and Redux state management to handle real-time feedback and user interactions."
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "items": [
+      {
+        "details": [
+          "Programming Languages: Python, Go, JavaScript, TypeScript, C/C++, Bash/Shell scripting, Scala",
+          "Web Technologies: HTML5, CSS3, React, Next.js, Redux, Vite, Vue.js, Vuex, Nuxt.js, Svelte",
+          "Browser Extension Development: Chrome Extension API, Secure Data Handling, Automated Testing",
+          "Backend Technologies: Node.js, Express.js, Django, Flask, FastAPI, RESTful APIs, GraphQL, WebSockets",
+          "Cloud & DevOps: AWS (Lambda, S3, EC2, ECS, API Gateway), Docker, GitHub Actions, Kubernetes, Jenkins, MySQL, PostgreSQL, MongoDB, Redis"
+        ]
+      }
+    ]
+  },
+  "achievements": {
+    "items": [
+      {
+        "details": [
+          "Ranked in the Top 2.5% globally on LeetCode, showcasing advanced programming and algorithmic expertise.",
+          "Received $1000 in A2SV's Month-Long Coding Competition for delivering high-impact solutions under tight deadlines."
+        ]
+      }
+    ]
+  }
+}

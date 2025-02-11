@@ -1,0 +1,100 @@
+{
+  "address": {
+    "name": "Yohans Hailu Kasaw",
+    "phone": "+251-929-260-704",
+    "email": "yohanshailukasaw@gmail.com",
+    "location": "Addis Ababa, Ethiopia",
+    "linkedin": "https://www.linkedin.com/in/yohans-hailu/",
+    "github": "https://github.com/YohansHailu"
+  },
+  "summary": "Adaptable Software Engineer with 4+ years of experience building scalable, high-performance applications. Proven expertise in designing RESTful APIs, cloud-based architectures, and modern web interfaces. Proficient in emerging technologies such as React.js, Node.js, and TypeScript, with a track record of delivering innovative, reliable solutions in dynamic environments. Passionate about collaborating with cross-functional teams to drive impactful results.",
+  "education": {
+    "items": [
+      {
+        "institution": "Addis Ababa University | Computer Engineering",
+        "period": "06/2021",
+        "details": [
+          "🏅 GPA: 3.79, Top 4% of class."
+        ]
+      },
+      {
+        "institution": "A2SV | Competitive Programming",
+        "period": "10/2021 - 09/2022",
+        "details": [
+          "Mastered data structures and algorithms (e.g., trees, graphs, Dijkstra’s) while solving 1,000+ challenges, achieving a Top 2.5% ranking globally on LeetCode.",
+          "Showcased problem-solving and collaboration skills by winning multiple competitive programming titles."
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "items": [
+      {
+        "role": "Software Engineer | OwlBox AI",
+        "period": "04/2023 - Present",
+        "details": [
+          "Developed a customer-facing video annotation web application using React.js, Redux, and TypeScript, leveraging server-side rendering and reusable components to enhance scalability.",
+          "Implemented highly-available RESTful APIs with Flask and Node.js, improving system reliability and scalability by 30%.",
+          "Optimized cloud deployments using AWS services (Lambda, EC2, RDS) and Terraform, reducing deployment time by 40% while ensuring system uptime."
+        ]
+      },
+      {
+        "role": "Head of Education and Software Engineer | Africa to Silicon Valley",
+        "period": "06/2021 - 04/2023",
+        "details": [
+          "Led the full-stack development of EzyPay, a scalable payment platform, integrating Node.js and Go backend services with AWS infrastructure to support rapid growth.",
+          "Built and deployed RateEat, a food review application, using React.js, MongoDB, and Docker, implementing real-time updates and an intuitive user experience.",
+          "Architected cloud solutions for scalable microservices using Kubernetes and GCP, achieving a 99.9% uptime across all platforms."
+        ]
+      },
+      {
+        "role": "Software Engineer Intern | Eskalate",
+        "period": "12/2020 - 07/2021",
+        "details": [
+          "Designed and deployed secure, modular RESTful APIs with Python Flask, JWT, and PostgreSQL, enhancing data security and scalability.",
+          "Enhanced CI/CD pipelines using Jenkins and Docker, accelerating delivery cycles by 25%.",
+          "Improved application performance and user satisfaction by implementing robust QA frameworks, including Selenium and Jest."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "items": [
+      {
+        "role": "EzyPay",
+        "details": [
+          "Optimized cloud-based payment systems with Go backend services, achieving a 20% increase in processing efficiency."
+        ]
+      },
+      {
+        "role": "RateEat",
+        "details": [
+          "Developed a React-based UI for real-time restaurant reviews, enhancing user interaction and engagement."
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "items": [
+      {
+        "details": [
+          "Programming Languages: Python, TypeScript, JavaScript, Go, C++, Bash/Shell scripting",
+          "Web Technologies: React.js, Redux, Next.js, Node.js, Express.js, GraphQL, RESTful APIs",
+          "Cloud and DevOps: AWS (Lambda, EC2, S3, RDS), Terraform, Docker, Kubernetes, Azure Functions",
+          "Databases: MongoDB, PostgreSQL, Redis, Elasticsearch, MySQL",
+          "Tools: Jira, Confluence, GitHub Actions, Jenkins, Postman"
+        ]
+      }
+    ]
+  },
+  "achievements": {
+    "items": [
+      {
+        "details": [
+          "Ranked in the Top 2.5% on LeetCode, showcasing exceptional algorithmic problem-solving skills.",
+          "Awarded $1000 in the A2SV Month-Long Coding Competition for outstanding software solutions."
+        ]
+      }
+    ]
+  }
+}

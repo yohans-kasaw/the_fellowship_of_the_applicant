@@ -1,0 +1,104 @@
+{
+  "address": {
+    "name": "Yohans Hailu Kasaw",
+    "phone": "+251-929-260-704",
+    "email": "yohanshailukasaw@gmail.com",
+    "location": "Addis Ababa, Ethiopia",
+    "linkedin": "https://www.linkedin.com/in/yohans-hailu/",
+    "github": "https://github.com/YohansHailu"
+  },
+  "summary": "Passionate Software Engineer with 4+ years of experience developing efficient, high-quality solutions in C++ and Python. Strong background in Linux environments, data structures, and algorithmic problem-solving—ranked in the top 2.5% on LeetCode. Adept at collaborating in agile teams to build scalable, maintainable software, with a focus on performance, reliability, and clean code.",
+  "education": {
+    "items": [
+      {
+        "institution": "Addis Ababa University | Computer Engineering",
+        "period": "06/2021",
+        "details": [
+          "🏅 GPA: 3.79, Top 4% of class."
+        ]
+      },
+      {
+        "institution": "A2SV | Competitive Programming",
+        "period": "10/2021 - 09/2022",
+        "details": [
+          "Built strong foundations in data structures (e.g., trees, graphs) and algorithms (e.g., sorting, searching) through 1,000+ programming challenges in Python and C++.",
+          "Earned Top 2.5% LeetCode rating and multiple A2SV competition titles, underscoring a disciplined approach to problem-solving and teamwork in high-pressure environments."
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "items": [
+      {
+        "role": "OwlBox AI | Software Engineer (C++/Python)",
+        "period": "04/2023 - Present",
+        "details": [
+          "Develop and optimize core software modules in C++ and Python on Linux, delivering high-performance data processing pipelines used for AI-driven video annotation.",
+          "Implement build configurations using g++ and CMake for consistent, reliable deployments; manage version control through Git for streamlined collaboration.",
+          "Collaborate with cross-functional teams in an agile setting, focusing on code readability, maintainability, and scalability. Introduced automated unit testing to reduce production bugs by approximately 30%."
+        ]
+      },
+      {
+        "role": "Africa to Silicon Valley | Software Engineer & Head of Education",
+        "period": "06/2021 - 04/2023",
+        "details": [
+          "Spearheaded development of modular microservices in Python (Flask, FastAPI) to power diverse projects, ensuring efficient data handling and robust API integration in an agile environment.",
+          "Coordinated code reviews and mentored junior developers, emphasizing best practices in data structure usage and algorithm optimization for real-time applications (e.g., restaurant rating systems).",
+          "Collaborated with a distributed team using Scrum and Kanban methodologies, maintaining consistent release cycles and improving performance metrics for a large-scale consumer platform by 25%."
+        ]
+      },
+      {
+        "role": "Eskalate | Software Engineer Intern",
+        "period": "12/2020 - 07/2021",
+        "details": [
+          "Developed secure, modular RESTful APIs in Python (Flask) and C++, managing user authentication via OAuth and JWT while running workloads on Docker containers in Linux.",
+          "Leveraged Git, Jenkins, and GitHub Actions for CI/CD pipelines, significantly reducing release overhead and accelerating deployment cycles by 40%.",
+          "Supported test-driven development using unit and integration testing (Selenium, Jest, Cypress), improving code reliability and lowering defect rates across the product suite."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "items": [
+      {
+        "role": "EzyPay",
+        "details": [
+          "Introduced a reliable microservice component in C++ for secure payment gateways, achieving near real-time processing of transactions on Linux-based systems.",
+          "Designed scalable backend services in Go, effectively reducing latency and ensuring high availability for financial operations."
+        ]
+      },
+      {
+        "role": "RateEat",
+        "details": [
+          "Engineered dynamic rating features using React and Python-based APIs, providing robust functionalities for end users while adhering to clean code principles.",
+          "Integrated agile sprints to prioritize enhancements and continuously improve system performance for an expanding user base."
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "items": [
+      {
+        "details": [
+          "Programming Languages: C++, Python, Go, JavaScript, TypeScript, Shell Scripting",
+          "Build & Version Control: g++, CMake, Make, Git",
+          "Data Structures & Algorithms: Arrays, Linked Lists, Trees, Graph Traversal, Sorting, Searching",
+          "Web Technologies: React, Next.js, Redux, Vue.js, Vuex",
+          "Backend: Flask, Node.js, Express.js, RESTful APIs, Docker, Kubernetes",
+          "Cloud & DevOps: AWS (EC2, S3, Lambda, API Gateway), GitHub Actions, Jenkins",
+          "Methodologies: Agile (Scrum, Kanban), Test-Driven Development, CI/CD"
+        ]
+      }
+    ]
+  },
+  "achievements": {
+    "items": [
+      {
+        "details": [
+          "Ranked in Top 2.5% on global coding challenge platforms, reflecting advanced proficiency in Python and C++ data structures and algorithms.",
+          "Awarded $1000 in a high-level coding marathon, demonstrating dedication, meticulous attention to detail, and creative problem-solving abilities."
+        ]
+      }
+    ]
+  }
+}

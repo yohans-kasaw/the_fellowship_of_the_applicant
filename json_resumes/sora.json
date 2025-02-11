@@ -1,0 +1,102 @@
+{
+  "address": {
+    "name": "Yohans Hailu Kasaw",
+    "phone": "+251-929-260-704",
+    "email": "yohanshailukasaw@gmail.com",
+    "location": "Addis Ababa, Ethiopia",
+    "linkedin": "https://www.linkedin.com/in/yohans-hailu/",
+    "github": "https://github.com/YohansHailu"
+  },
+  "summary": "Solution-focused Senior Backend Engineer with 4+ years of experience designing scalable, secure, and high-performance systems. Adept at building microservices using Node.js, optimizing cloud infrastructures, and implementing robust DevOps practices to elevate reliability. Accomplished in tackling complex problems (Top 2.5% on LeetCode) and guiding cross-functional teams, with a knack for delivering real-world impact in agile, fast-paced environments.",
+  "education": {
+    "items": [
+      {
+        "institution": "Addis Ababa University | Computer Engineering",
+        "period": "06/2021",
+        "details": [
+          "🏅 GPA: 3.79, Top 4% of class."
+        ]
+      },
+      {
+        "institution": "A2SV | Competitive Programming",
+        "period": "10/2021 - 09/2022",
+        "details": [
+          "Developed deep expertise in data structures and algorithms (e.g., trees, graphs, Dijkstra’s) using Python, Go, and C++, consistently delivering high-performance solutions.",
+          "Ranked in Top 2.5% on LeetCode and Codeforces by solving 1,000+ algorithmic challenges, illustrating a strong commitment to problem-solving and collaboration."
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "items": [
+      {
+        "role": "OwlBox AI | Senior Backend Engineer",
+        "period": "04/2023 - Present",
+        "details": [
+          "Spearhead the design and development of a microservices-based platform, integrating Node.js and Flask to process large-scale video annotations and analytics with high throughput.",
+          "Improve system reliability through containerization (Docker, Kubernetes) and AWS-based auto-scaling (EC2, Lambda, RDS), reducing latency by 30% under peak loads.",
+          "Collaborate with cross-functional teams to implement secure RESTful APIs, leverage Celery for async task execution, and conduct regular code reviews ensuring best-in-class standards."
+        ]
+      },
+      {
+        "role": "Africa to Silicon Valley | Head of Education & Senior Software Engineer",
+        "period": "06/2021 - 04/2023",
+        "details": [
+          "Oversaw backend architecture for RateEat using Node.js and Nest.js on GCP with MongoDB and Redis, pioneering one of Addis Ababa’s first scalable food delivery and rating platforms.",
+          "Instituted robust security measures (JWT, OAuth) and microservices design, resulting in a 20% increase in uptime and faster feature rollouts for mission-critical applications.",
+          "Led mentorship initiatives by coaching junior developers on container orchestration (Docker, Kubernetes) and agile workflows, fostering a culture of continuous learning."
+        ]
+      },
+      {
+        "role": "Eskalate | Backend Engineering Intern",
+        "period": "12/2020 - 07/2021",
+        "details": [
+          "Implemented modular, secure APIs with Flask, SQLAlchemy, and JWT/OAuth, ensuring compliance with industry best practices for data protection and privacy.",
+          "Deployed CI/CD pipelines (Jenkins, GitHub Actions) to automate testing (Selenium, Jest, Cypress) and expedite release cycles, reducing production bugs by over 15%.",
+          "Orchestrated Kubernetes clusters to streamline environment consistency, boosting system resiliency and minimizing service downtime."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "items": [
+      {
+        "role": "EzyPay",
+        "details": [
+          "Reinforced fintech-oriented payment services by integrating Go-based backends for higher fault tolerance and load handling.",
+          "Led cloud infrastructure deployment on AWS (EC2, S3, Lambda, RDS), enhancing transaction speed and data security for local merchants."
+        ]
+      },
+      {
+        "role": "RateEat",
+        "details": [
+          "Developed a Node.js and React-powered platform for dynamic restaurant ratings and reviews, improving user engagement through real-time updates and intuitive UI components."
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "items": [
+      {
+        "details": [
+          "Programming Languages: Node.js, Python, Go, JavaScript, TypeScript, C/C++, Bash/Shell scripting",
+          "Web & Backend: Express.js, Nest.js, Flask, Django, RESTful APIs, GraphQL, WebSockets, Microservices",
+          "Databases: MongoDB, PostgreSQL, MySQL, Redis, SQL/NoSQL Optimization",
+          "Cloud & DevOps: AWS (EC2, S3, Lambda, EKS), Docker, Kubernetes, GitHub Actions, Jenkins, Terraform (basic exposure)",
+          "Security & Performance: OAuth/JWT, Encryption, Automated Testing (Jest, Cypress), CI/CD Pipelines, Monitoring Tools"
+        ]
+      }
+    ]
+  },
+  "achievements": {
+    "items": [
+      {
+        "details": [
+          "Recognized in the Top 2.5% globally on LeetCode, validating advanced algorithmic and coding capabilities.",
+          "Awarded $1000 in a month-long A2SV Coding Competition, demonstrating persistence, innovation, and high-impact problem-solving in a team setting."
+        ]
+      }
+    ]
+  }
+}
+

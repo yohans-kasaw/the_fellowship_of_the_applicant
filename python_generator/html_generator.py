@@ -36,8 +36,8 @@ def generate_section(all_data, section_style, border_style, key):
     section = all_data[key]
     border = f" {border_style}" if key != "achievements" else ""
     html = f'<section class="{section_style}{border}">'
-    html += f"<h2 class='text-xl font-bold mb-4'>{key.capitalize()}</h2>"
-    html += "<div class='space-y-4'>"
+    html += f"<h2 class='text-xl font-bold mb-2'>{key.capitalize()}</h2>"
+    html += "<div class='space-y-2'>"
     for item in section['items']:
         details = "<ul class='list-disc pl-4 text-gray-700 dark:text-gray-400'>" + "".join(f"<li>{detail}</li>" for detail in item.get('details', [])) + "</ul>"
         html += f"""
@@ -51,7 +51,7 @@ def generate_section(all_data, section_style, border_style, key):
     return html
 
 def generate_html(all_data):
-    section_style = "pb-6 pt-2"
+    section_style = "pb-2 pt-2"
     border_style = "border-b border-gray-200 dark:border-gray-800"
     
     html_content = generate_header(all_data)
@@ -73,7 +73,8 @@ def generate_html(all_data):
 if __name__ == "__main__":
     # open the json file in nevim, let it save the file. and then continue
 
-    json_file = open("/home/yohansh/JobSearch/json_resume/carrear_renew.json", "r")
+    json_resume_name = "floey"
+    json_file = open(f"/home/yohansh/JobSearch/json_resumes/{json_resume_name}.json", "r")
     all_data = json.loads(json_file.read())
 
     file_name = json_file.name.split("/")[-1].replace("json", "html")

@@ -1,0 +1,101 @@
+{
+  "address": {
+    "name": "Yohans Hailu Kasaw",
+    "phone": "+251-929-260-704",
+    "email": "yohanshailukasaw@gmail.com",
+    "location": "Addis Ababa, Ethiopia",
+    "linkedin": "https://www.linkedin.com/in/yohans-hailu/",
+    "github": "https://github.com/YohansHailu"
+  },
+  "summary": "Motivated Backend Engineer with 4+ years of experience building scalable SaaS solutions in cloud environments. Adept at leveraging AWS services (API Gateway, Lambda, S3) and Python-based data manipulations (pandas) to deliver robust, data-driven architectures. A rapid learner and problem solver (Top 2.5% on LeetCode) who loves startup culture, thrives on ownership, and seeks to transform ideas into impactful, production-ready solutions.",
+  "education": {
+    "items": [
+      {
+        "institution": "Addis Ababa University | Computer Engineering",
+        "period": "06/2021",
+        "details": [
+          "🏅 GPA: 3.79, Top 4% of class."
+        ]
+      },
+      {
+        "institution": "A2SV | Competitive Programming",
+        "period": "10/2021 - 09/2022",
+        "details": [
+          "Combined expertise in algorithms (graphs, Dijkstra’s) with Python, Go, and C++ to craft high-performance software solutions.",
+          "Reached Top 2.5% on LeetCode and Codeforces by solving 1,000+ algorithmic challenges, demonstrating exceptional problem-solving and teamwork."
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "items": [
+      {
+        "role": "OwlBox AI | Backend Engineer",
+        "period": "04/2023 - Present",
+        "details": [
+          "Constructed serverless microservices in AWS using Python (Flask) and Lambda, streamlining the platform’s ability to process high-volume data inputs and accelerating feature delivery by 30%.",
+          "Devised automated data pipelines leveraging S3 and DynamoDB for resilient storage and real-time data manipulation, leveraging pandas for rapid insight extraction.",
+          "Collaborated with cross-functional teams to integrate cutting-edge AI/ML libraries, focusing on data cleanliness, security, and scalable deployment via CI/CD (GitHub Actions)."
+        ]
+      },
+      {
+        "role": "Africa to Silicon Valley (A2SV) | Full-Stack Engineer & Head of Education",
+        "period": "06/2021 - 04/2023",
+        "details": [
+          "Led the backend strategy for multiple SaaS platforms, incorporating AWS (EC2, S3, Lambda, RDS, DynamoDB) and GCP for secure, containerized deployments, emphasizing multi-tenant microservices.",
+          "Pioneered data-driven features for RateEat, employing Python and Node.js with pandas, ensuring real-time analysis of customer behavior and feedback loops that boosted user retention by 15%.",
+          "Mentored 50+ students in competitive programming, fostering a collaborative learning environment and driving knowledge exchange on data architecture, security, and software best practices."
+        ]
+      },
+      {
+        "role": "Eskalate | Software Engineer Intern",
+        "period": "12/2020 - 07/2021",
+        "details": [
+          "Developed and containerized RESTful APIs with Flask, Python, Docker, and Kubernetes, prioritizing modular and secure data flows.",
+          "Introduced systematic QA processes (Selenium, Jest, Cypress), reducing critical bugs by 40% and elevating overall software quality."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "items": [
+      {
+        "role": "EzyPay",
+        "details": [
+          "Architected backend services using Go on AWS with emphasis on performance, scalability, and secure financial transactions.",
+          "Integrated custom APIs with Python-based data transformations to ensure accurate and efficient mobile payment processes."
+        ]
+      },
+      {
+        "role": "RateEat",
+        "details": [
+          "Implemented a user-centric platform in React for streamlined restaurant rating and reviews.",
+          "Leveraged real-time analytics in Python and AWS to measure usage patterns, supporting data-backed marketing insights."
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "items": [
+      {
+        "details": [
+          "Programming Languages: Python, Go, JavaScript, TypeScript, C/C++, Bash/Shell scripting, Scala",
+          "Data & Analytics: Python data manipulation (pandas), Data modeling, ETL pipelines",
+          "Cloud & DevOps: AWS (Lambda, S3, DynamoDB, API Gateway, EC2, ECS, EKS), Docker, Kubernetes, GitHub Actions, Jenkins",
+          "Backend & Web: Flask, FastAPI, Node.js, Express.js, RESTful APIs, GraphQL",
+          "Frontend Frameworks: React, Next.js, Redux, Vue.js, Svelte"
+        ]
+      }
+    ]
+  },
+  "achievements": {
+    "items": [
+      {
+        "details": [
+          "Achieved Top 2.5% globally in LeetCode challenges, demonstrating a data-driven, problem-solving mindset.",
+          "Won $1000 in A2SV Month-Long Coding Competition, emphasizing scalable solutions and exceptional teamwork."
+        ]
+      }
+    ]
+  }
+}
