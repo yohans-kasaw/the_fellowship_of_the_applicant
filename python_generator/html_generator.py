@@ -73,7 +73,7 @@ def generate_html(all_data):
 if __name__ == "__main__":
     # open the json file in nevim, let it save the file. and then continue
 
-    json_resume_name = "floey"
+    json_resume_name = "turing"
     json_file = open(f"/home/yohansh/JobSearch/json_resumes/{json_resume_name}.json", "r")
     all_data = json.loads(json_file.read())
 

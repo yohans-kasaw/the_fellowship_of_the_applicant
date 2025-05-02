@@ -1,0 +1,100 @@
+{
+  "address": {
+    "name": "Yohans Hailu Kasaw",
+    "phone": "+251-929-260-704",
+    "email": "yohanshailukasaw@gmail.com",
+    "location": "Addis Ababa, Ethiopia",
+    "linkedin": "https://www.linkedin.com/in/yohans-hailu/",
+    "github": "https://github.com/YohansHailu"
+  },
+  "summary": "Accomplished Software Engineer with 4+ years of experience specializing in Python and TypeScript/JavaScript full-stack development. Elite problem solver ranked in the top 2.5% on LeetCode, demonstrating exceptional algorithm expertise. Proven track record in building scalable applications using ORMs, microservices architecture, and cloud technologies. Passionate about contributing to technology solutions that drive sustainability and positive impact.",
+  "education": {
+    "items": [
+      {
+        "institution": "Addis Ababa University | Computer Engineering",
+        "period": "06/2021",
+        "details": ["🏅 GPA: 3.79, Top 4% of class."]
+      },
+      {
+        "institution": "A2SV | Competitive Programming",
+        "period": "10/2021 - 09/2022",
+        "details": [
+          "Mastered advanced algorithmic concepts including dynamic programming, graph theory, and optimization algorithms, with practical implementation experience in Python and TypeScript",
+          "Achieved top 2.5% on LeetCode, demonstrating exceptional problem-solving capabilities in Python and algorithmic efficiency through solving 1,000+ complex challenges"
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "items": [
+      {
+        "role": "OwlBox AI | Senior Software Engineer",
+        "period": "04/2023 - Present",
+        "details": [
+          "Architected and implemented scalable microservices using Python Flask and TypeScript/Node.js, leveraging ORM (SQLAlchemy) for efficient database operations and complex data modeling",
+          "Led the development of high-performance REST APIs using Python, implementing sophisticated algorithms for video processing and real-time data analysis",
+          "Engineered robust full-stack solutions combining Python backend services with TypeScript/React frontend, resulting in 23% performance improvement and enhanced system reliability"
+        ]
+      },
+      {
+        "role": "Africa to Silicon Valley | Lead Software Engineer",
+        "period": "06/2021 - 04/2023",
+        "details": [
+          "Spearheaded development of complex distributed systems using Python and Node.js, implementing advanced algorithms for optimal system performance and scalability",
+          "Architected backend services using Node.js/TypeScript and Python, incorporating ORM patterns for efficient data management across multiple databases",
+          "Led technical architecture decisions for mission-critical applications, balancing Python and JavaScript ecosystems to create robust, maintainable solutions"
+        ]
+      },
+      {
+        "role": "Eskalate | Software Engineer",
+        "period": "12/2020 - 07/2021",
+        "details": [
+          "Designed and implemented scalable RESTful APIs using Python Flask, SQLAlchemy ORM, and TypeScript, focusing on performance optimization and security",
+          "Enhanced application stability through comprehensive testing frameworks and CI/CD implementation, reducing bug rates by 40% and improving deployment efficiency"
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "items": [
+      {
+        "role": "Sustainable Payment Platform (EzyPay)",
+        "details": [
+          "Developed eco-friendly payment system using Python and TypeScript, reducing paper waste by 60%",
+          "Implemented efficient backend services using Python for optimal performance and scalability, with TypeScript for type-safe frontend development"
+        ]
+      },
+      {
+        "role": "RateEat - Sustainable Restaurant Platform",
+        "details": [
+          "Built scalable backend using Python and Node.js, implementing complex algorithms for restaurant recommendations",
+          "Designed efficient ORM models for seamless data management and optimal query performance"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "items": [
+      {
+        "details": [
+          "Core Technologies: Python (Flask, Django, SQLAlchemy ORM), TypeScript/JavaScript (Node.js, Express)",
+          "Frontend: React, Next.js, Redux, TypeScript",
+          "Database & ORM: SQLAlchemy, TypeORM, PostgreSQL, MongoDB",
+          "Algorithm Design: Data Structures, Complex Problem Solving, Optimization",
+          "Cloud & DevOps: AWS (Lambda, EC2, S3), Docker, GitHub Actions"
+        ]
+      }
+    ]
+  },
+  "achievements": {
+    "items": [
+      {
+        "details": [
+          "Ranked in top 2.5% globally on LeetCode, showcasing mastery of complex algorithms and data structures using Python",
+          "Developed and optimized multiple full-stack applications using Python and TypeScript, resulting in significant performance improvements",
+          "Won $1000 in A2SV Month-Long Coding Competition, demonstrating exceptional algorithmic problem-solving skills"
+        ]
+      }
+    ]
+  }
+}
