@@ -1,0 +1,124 @@
+{
+    "name": "Yohans Hailu Kasaw",
+    "phone": "+251-929-260-704",
+    "email": "yohanshailukasaw@gmail.com",
+    "location": "Addis Ababa, Ethiopia",
+    "linkedin": "https://www.linkedin.com/in/yohans-hailu/",
+    "github": "https://github.com/YohansHailu",
+    "summary": "Energetic Software Engineer with 4+ years of experience designing and implementing dynamic web applications. Elite problem solver ranked in the top 2.5% on LeetCode, adept at tackling complex challenges. Proficient in cloud technologies and DevOps, with expertise in web development using React.js and Vue.js. Skilled in API development, microservices architecture, and CI/CD pipelines.",
+    "sections": [
+        {
+            "title": "Education",
+            "entries": [
+                {
+                    "title": "Computer Engineering",
+                    "subtitle": "Addis Ababa University",
+                    "period": "09/2016 - 06/2021",
+                    "description": ["🏅 GPA: 3.79, Top 4% of class."]
+                },
+                {
+                    "title": "Competitive Programming",
+                    "subtitle": "A2SV",
+                    "period": "10/2021 - 09/2022",
+                    "description": [
+                        "Combined mastery of data structures and algorithms (trees, graphs, Dijkstra's) with proficiency in Python, Go, and C++ to engineer robust and high-performance software solutions.",
+                        "Achieved Top 2.5% LeetCode and Codeforces ratings by solving 1,000+ algorithmic challenges and securing multiple A2SV competition titles, demonstrating exceptional problem-solving, teamwork, and dedication."
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Experience",
+            "entries": [
+                {
+                    "title": "Software Engineer",
+                    "subtitle": "OwlBox AI",
+                    "period": "04/2023 - Present",
+                    "description": [
+                        "Led the development of a scalable AI-driven video annotation platform using React, Next.js, Redux, and TypeScript, implementing server-side rendering and dynamic routing to deliver a highly responsive and maintainable frontend.",
+                        "Engineered a robust microservices backend with Flask and Node.js, integrated Celery for asynchronous task management, while managing CI/CD pipelines with GitHub Actions for seamless AWS deployments (Lambda, EC2, S3, RDS).",
+                        "Optimized database schemas to enhance data integrity and access speeds by 23.03%, designed resilient API gateways and secure RESTful APIs, and implemented auto-scaling strategies leveraging AWS services to ensure system scalability and reliability."
+                    ]
+                },
+                {
+                    "title": "Head of Education and Software Engineer",
+                    "subtitle": "Africa to Silicon Valley",
+                    "period": "06/2021 - 04/2023",
+                    "description": [
+                        "Led the frontend development of HakimHub using React, Next.js, Redux, TypeScript, Tailwind CSS, Styled Components that integrated social media feeds, real-time notifications, and video calling features, providing comprehensive health center information to the public.",
+                        "Directed the backend team for RateEat, architecting and scaling robust Node.js, Nest.js applications hosted on Google Cloud Platform (GCP) with MongoDB, Redis, Docker, and Kubernetes, implementing a microservices architecture that established one of Addis Ababa's first successful food delivery systems.",
+                        "Managed full-stack development for EzyPay, overseeing both frontend and backend teams using Next.js, React, Redux, Go with AWS services including EC2, S3, Lambda, RDS, and DynamoDB."
+                    ]
+                },
+                {
+                    "title": "Software Engineer Intern",
+                    "subtitle": "Eskalate",
+                    "period": "12/2020 - 07/2021",
+                    "description": [
+                        "Designed and deployed RESTful APIs using Flask Python, SQLAlchemy, JWT, OAuth, PostgreSQL, MySQL, Docker, and Kubernetes, focusing on modularity and security enhancements.",
+                        "Enhanced application stability and frontend resilience by implementing robust QA frameworks using Selenium, Jest, Cypress, Postman, Mocha, Chai, and Continuous Integration/Continuous Deployment (CI/CD) tools like Jenkins and GitHub Actions, decreasing bug rates and elevating user satisfaction through dependable software quality."
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Projects",
+            "entries": [
+                {
+                    "title": "EzyPay",
+                    "description": [
+                        "Enhanced mobile payment systems' efficiency in Ethiopia.",
+                        "Implemented backend services using Go for better and robust performance and scalability."
+                    ]
+                },
+                {
+                    "title": "RateEat",
+                    "description": [
+                        "Implemented an intuitive UI with React for enhanced user interaction for dynamic restaurant ratings and reviews."
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Technical Skills",
+            "entries": [
+                {
+                    "title": "Programming Languages",
+                    "description": [
+                        "Python, Go, JavaScript, TypeScript, C/C++, Bash/Shell scripting, Scala"
+                    ]
+                },
+                {
+                    "title": "Web Technologies",
+                    "description": [
+                        "HTML5, CSS3, React, Next.js, Redux, Vite, Vue.js, Vuex, Nuxt.js, Svelte"
+                    ]
+                },
+                {
+                    "title": "Backend Technologies",
+                    "description": [
+                        "Node.js, Express.js, Django, Flask, FastApi, RESTful APIs, GraphQL, WebSockets"
+                    ]
+                },
+                {
+                    "title": "Cloud Technologies and DevOps",
+                    "description": [
+                        "AWS(Lambda, S3, ERS, EKS, EC2, ECS, API Gateways), Docker, GitHub Actions, Kubernetes, Jenkins, MySQL, PostgreSQL, MongoDB, Redis"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Achievements",
+            "entries": [
+                {
+                    "title": "Competitive Programming Excellence",
+                    "description": [
+                        "Achieved Top 2.5% in global programming competition (LeetCode), demonstrating exceptional proficiency in Python and Go.",
+                        "Won $1000 in A2SV Month-Long Coding Competition, demonstrating exceptional problem-solving skills."
+                    ]
+                }
+            ]
+        }
+    ]
+}

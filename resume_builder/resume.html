@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Yohans Hailu Kasaw Portfolio</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+        <main class="bg-white text-gray-900 font-sans">
+            <div class="px-4 py-8 container mx-auto">
+                <section class="pb-2 pt-2 border-b border-gray-200">
+                    <h1 class="text-2xl font-bold">{{.Name}}</h1>
+                    <div class="text-gray-500 mt-2 space-x-4">
+                        <span>📞 {{.Phone}}</span>
+                        <span
+                            >✉️
+                            <a
+                                href="mailto:{{.Email}}"
+                                class="text-blue-500 hover:text-blue-600"
+                                >{{.Email}}</a
+                            ></span
+                        >
+                        <span>📍 {{.Location}}</span>
+                        <span
+                            >🔗
+                            <a
+                                href="{{.Linkedin}}"
+                                class="text-blue-500 hover:text-blue-600"
+                                >LinkedIn</a
+                            ></span
+                        >
+                        <span
+                            >🔗
+                            <a
+                                href="{{.Github}}"
+                                class="text-blue-500 hover:text-blue-600"
+                                >GitHub</a
+                            ></span
+                        >
+                    </div>
+                    <p class="pt-4 text-gray-700">{{.Summary}}</p>
+                </section>
+                <section>
+                    {{range $_, $section := .Sections}}
+                    <li>{{$section.Title}}</li>
+                    {{end}}
+                </section>
+            </div>
+        </main>
+    </body>
+</html>
