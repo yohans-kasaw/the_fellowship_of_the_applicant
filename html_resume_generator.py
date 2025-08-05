@@ -72,13 +72,13 @@ def generate_html(all_data):
 
 if __name__ == "__main__":
     # open the json file in nevim, let it save the file. and then continue
+    base_file = "/home/yohansh/projects/the_fellowship_of_the_applicant"
 
-    json_resume_name = "turing"
-    json_file = open(f"/home/yohansh/JobSearch/json_resumes/{json_resume_name}.json", "r")
+    json_file = open(f"{base_file}/output/generated_json_resume/axion.json", "r")
     all_data = json.loads(json_file.read())
 
     file_name = json_file.name.split("/")[-1].replace("json", "html")
-    file_path = f"/home/yohansh/JobSearch/generated_resume/{file_name}"
+    file_path = f"{base_file}/output/generated_html_resume/{file_name}"
 
     file = open(file_path, "w")
     file.write(generate_html(all_data))

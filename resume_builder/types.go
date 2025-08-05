@@ -3,6 +3,7 @@ package main
 type Entry struct {
 	Title       string   `json:"title,omitempty"`    // role
 	Subtitle    string   `json:"subtitle,omitempty"` // company
+	InlineTitle string   `json:"inlineTitle,omitempty"` // company
 	Period      string   `json:"period,omitempty"`
 	Location    string   `json:"location,omitempty"`
 	Description []string `json:"description,omitempty"`

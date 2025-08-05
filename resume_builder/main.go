@@ -10,7 +10,7 @@ import (
 const OUTPUT_DIR = "./output"
 
 func main() {
-	t, err := template.ParseFiles("./resume.html")
+	t, err := template.ParseFiles("./resume_templ.html")
 	if err != nil {
 		panic(err)
 	}
@@ -23,7 +23,6 @@ func main() {
 
 	data := parse_resume()
 	t.Execute(out_file, data)
-	t.Execute(os.Stdout, data)
 }
 
 func parse_resume() Resume {
