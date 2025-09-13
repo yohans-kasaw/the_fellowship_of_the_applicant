@@ -52,6 +52,8 @@
                             <div>
                                 <h3 class="text-lg font-semibold">
                                     {{.Title}}
+                                    - {{.Subtitle}}
+                                    - {{.Period}}
                                 </h3>
                             </div>
                             {{if .Subtitle}}
@@ -61,7 +63,7 @@
                                 <span
                                     class="ml-6 text-sm text-gray-500 font-mono"
                                 >
-                                    {{.Location}}
+                                    | {{.Location}}
                                 </span>
                                 {{end}}
                                 <span
