@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>{{.Name}} // Technical Blueprint</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <!-- Google Fonts: A clean, geometric sans-serif for a modern, technical feel -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Fira+Code:wght@400&display=swap"
+            rel="stylesheet"
+        />
+        <style>
+            body {
+                font-family: "Poppins", sans-serif;
+            }
+            .font-mono {
+                font-family: "Fira Code", monospace;
+            }
+        </style>
+    </head>
+    <body class="bg-slate-100">
+        <main
+            class="container mx-auto max-w-5xl my-12 p-10 bg-white shadow-xl rounded-lg"
+        >
+            <!-- === HEADER === -->
+            <header class="flex flex-col sm:flex-row items-start justify-between pb-6 border-b-2 border-dashed border-slate-300">
+                <div>
+                    <h1 class="text-4xl sm:text-5xl font-bold text-blue-600 tracking-tight">
+                        {{.Name}}
+                    </h1>
+                     <!-- You might need to add a 'JobTitle' to your data structure -->
+                    <h2 class="mt-1 text-lg font-medium text-slate-600">
+                        Senior Software Engineer
+                    </h2>
+                </div>
+                <div class="mt-4 sm:mt-0 text-sm text-slate-500 text-left sm:text-right space-y-1">
+                    <p><a href="mailto:{{.Email}}" class="hover:text-blue-600">{{.Email}}</a></p>
+                    <p>{{.Phone}}</p>
+                    <p>{{.Location}}</p>
+                    <p>
+                        <a href="{{.Linkedin}}" class="font-semibold text-slate-600 hover:text-blue-600">LinkedIn</a> / 
+                        <a href="{{.Github}}" class="font-semibold text-slate-600 hover:text-blue-600">GitHub</a>
+                    </p>
+                </div>
+            </header>
+
+            <!-- THIS IS THE MAIN CONTENT AREA -->
+            <!-- The loop is now placed at the top level, so it will render all sections from your data -->
+            <div class="mt-8">
+                {{range .Sections}}
+                <section class="mb-10">
+                    <h2
+                        class="text-2xl font-bold text-blue-600 pb-2 border-b-2 border-dashed border-slate-300 mb-6"
+                    >
+                        {{.Title}}
+                    </h2>
+
+                    <!-- If the section is a summary, it often has no 'Entries', just a description. We handle that here. -->
+                    <!-- This assumes your summary section might have a different structure. -->
+                    <!-- For simplicity and to match your original structure, we will just use the Entries loop. -->
+
+                    <div class="space-y-8">
+                        {{if not .Entries}}
+                            <!-- This handles sections that might just be a paragraph, like a summary -->
+                            <p class="text-slate-600 leading-relaxed">{{index .Description 0}}</p>
+                        {{else}}
+                            {{range .Entries}}
+                            <div>
+                                <div class="flex flex-col sm:flex-row justify-between">
+                                    <h3 class="text-xl font-bold text-slate-800">
+                                        {{.Title}}
+                                    </h3>
+                                    <p class="font-mono text-sm text-slate-500 pt-1">
+                                        {{.Period}}
+                                    </p>
+                                </div>
+                                <div class="flex flex-col sm:flex-row justify-between text-md">
+                                    <h4 class="font-semibold text-slate-600">{{.Subtitle}}</h4>
+                                    {{if .Location}}
+                                    <p class="font-mono text-sm text-slate-500 pt-1">{{.Location}}</p>
+                                    {{end}}
+                                </div>
+                                <ul class="list-disc pl-5 mt-3 space-y-2 text-slate-700 leading-relaxed marker:text-blue-500">
+                                     {{range .Description}}
+                                    <li>{{.}}</li>
+                                    {{end}}
+                                </ul>
+                            </div>
+                            {{end}}
+                        {{end}}
+                    </div>
+                </section>
+                {{end}}
+            </div>
+        </main>
+    </body>
+</html>

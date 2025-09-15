@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/json"
+	"fmt"
 	"os"
 	"path/filepath"
 	"text/template"
@@ -10,7 +11,6 @@ import (
 type Entry struct {
 	Title       string   `json:"title,omitempty"`       // role
 	Subtitle    string   `json:"subtitle,omitempty"`    // company
-	InlineTitle string   `json:"inlineTitle,omitempty"` // company
 	Period      string   `json:"period,omitempty"`
 	Location    string   `json:"location,omitempty"`
 	Description []string `json:"description,omitempty"`
@@ -35,26 +35,39 @@ type Resume struct {
 const OUTPUT_DIR = "./output"
 
 func main() {
-	t, err := template.ParseFiles("./resume_templ.html")
+	if len(os.Args) < 2 {
+		fmt.Printf("please provide json resume path")
+		return
+	}
+
+	templ_path := "./default.html"
+	if len(os.Args) >= 3 {
+		templ_path = os.Args[2]
+		fmt.Println("using ", templ_path, "template")
+	}
+
+	t, err := template.ParseFiles(templ_path)
+
 	if err != nil {
 		panic(err)
 	}
 
-	out_file, err := os.Create(filepath.Join(OUTPUT_DIR, "resume.html"))
+	out_path := filepath.Join(OUTPUT_DIR, "resume.html")
+	out_file, err := os.Create(out_path)
 	if err != nil {
 		panic(err)
 	}
 	defer out_file.Close()
 
-	data := parse_resume()
+	data := parse_resume(os.Args[1])
 	t.Execute(out_file, data)
+
+	fmt.Println("Resume hase been generated to: ", out_path)
 }
 
-func parse_resume() Resume {
+func parse_resume(path string) Resume {
 	var resume Resume
-	// file_path := "./sample_resume.json"
-	file_path := "./resumes/4_good_years_wellfound.json"
-	byte, err := os.ReadFile(file_path)
+	byte, err := os.ReadFile(path)
 	if err != nil {
 		panic(err)
 	}
