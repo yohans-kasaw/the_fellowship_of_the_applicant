@@ -3,8 +3,8 @@
   "phone": "+251-929-260-704",
   "email": "yohanshailukasaw@gmail.com",
   "location": "Addis Ababa, Ethiopia",
-  "linkedin": "https://www.linkedin.com/in/yohans-kasaw/",
-  "github": "https://github.com/yohans-kasaw",
+  "linkedin": "linkedin.com/in/yohans-kasaw",
+  "github": "github.com/yohans-kasaw",
   "summary": "Developer with 232+ years of experience specializing in responsive web application development using React, Vue.js, and modern JavaScript. Elite problem-solving skills with top 2.5% LeetCode ranking, adept at debugging complex frontend challenges and optimizing web performance.",
   "sections": [
     {
@@ -75,8 +75,7 @@
           "period": "",
           "location": "",
           "description": [
-            "Created responsive payment interface for Ethiopia's mobile payment market with focus on accessibility and user experience.",
-            "Implemented frontend components with React featuring real-time transaction feedback and intuitive navigation."
+            "Created responsive payment interface for Ethiopia's mobile payment market with focus on accessibility and user experience."
           ]
         },
         {
@@ -85,8 +84,7 @@
           "period": "",
           "location": "",
           "description": [
-            "Designed and built responsive restaurant rating interface using React and Next.js with emphasis on visual appeal and user engagement.",
-            "Converted design mockups into interactive components with smooth animations and mobile-optimized layouts."
+            "Designed and built responsive restaurant rating interface using React and Next.js with emphasis on visual appeal and user engagement."
           ]
         }
       ]
@@ -95,15 +93,11 @@
       "title": "Skills",
       "entries": [
         {
-          "title": "",
-          "subtitle": "",
-          "period": "",
-          "location": "",
           "description": [
-            "Frontend Technologies: HTML5, CSS3, JavaScript, TypeScript, React, Next.js, Vue.js, Responsive Web Design",
-            "CSS Frameworks & Tools: Tailwind CSS, Bootstrap, Styled Components, CSS Grid, Flexbox",
-            "Development Tools: Git, GitHub, Figma, Visual Studio Code, Chrome DevTools, Webpack, Vite",
-            "API Integration: RESTful APIs, JSON, Fetch API, Axios, WebSockets for real-time features"
+            "HTML5, CSS3, JavaScript, TypeScript, React, Next.js, Vue.js, Responsive Web Design",
+            "Tailwind CSS, Bootstrap, Styled Components, CSS Grid, Flexbox",
+            "Git, GitHub, Figma, Visual Studio Code, Chrome DevTools, Webpack, Vite",
+            "RESTful APIs, JSON, Fetch API, Axios, WebSockets for real-time features"
           ]
         }
       ]

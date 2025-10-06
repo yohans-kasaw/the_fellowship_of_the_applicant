@@ -40,7 +40,7 @@ func main() {
 		return
 	}
 
-	templ_path := "./default.html"
+	templ_path := "./templates/default.html"
 	if len(os.Args) >= 3 {
 		templ_path = os.Args[2]
 		fmt.Println("using ", templ_path, "template")

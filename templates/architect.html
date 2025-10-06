@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>{{.Name}} // Software Engineer</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <!-- Google Fonts: A single, versatile sans-serif for a clean, modern look -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            rel="preconnect"
+            href="https://cdnjs.cloudflare.com"
+            crossorigin
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+            integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <style>
+            body {
+                font-family: 'Inter', sans-serif;
+            }
+        </style>
+    </head>
+    <body class="bg-slate-900 text-slate-300">
+        <main
+            class="container mx-auto max-w-5xl my-12 p-8 md:p-12 bg-slate-800 shadow-2xl shadow-black/50 rounded-lg"
+        >
+            <!-- === HEADER: THE CORE STATEMENT === -->
+            <header class="mb-12">
+                <h1 class="text-5xl md:text-6xl font-bold text-white">
+                    {{.Name}}
+                </h1>
+                <p class="mt-3 text-2xl font-medium text-cyan-400">
+                    Senior Software Engineer
+                </p>
+                <div
+                    class="mt-8 flex flex-wrap items-center gap-x-6 gap-y-3 text-sm text-slate-400"
+                >
+                    <a
+                        href="mailto:{{.Email}}"
+                        class="flex items-center gap-2 hover:text-cyan-300 transition-colors"
+                    >
+                        <i class="fa-solid fa-envelope"></i> {{.Email}}
+                    </a>
+                    <a
+                        href="{{.Github}}"
+                        class="flex items-center gap-2 hover:text-cyan-300 transition-colors"
+                    >
+                        <i class="fa-brands fa-github"></i> {{.Github}}
+                    </a>
+                    <a
+                        href="{{.Linkedin}}"
+                        class="flex items-center gap-2 hover:text-cyan-300 transition-colors"
+                    >
+                        <i class="fa-brands fa-linkedin"></i> {{.Linkedin}}
+                    </a>
+                    <a class="flex items-center gap-2">
+                        <i class="fa-solid fa-map-pin"></i> {{.Location}}
+                    </a>
+                </div>
+            </header>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-x-12">
+                <aside class="md:col-span-1 mb-12 md:mb-0">
+                    <section class="mb-10">
+                        <h2
+                            class="text-xl font-bold text-cyan-400 uppercase tracking-widest mb-4"
+                        >
+                            Summary
+                        </h2>
+                        <p class="text-slate-400 leading-relaxed">
+                            {{.Summary}}
+                        </p>
+                    </section>
+
+                    <!-- CORRECTED: Create a template variable '$section' to hold the current context -->
+                    {{range $section := .Sections}} {{/* This 'if' block checks
+                    for specific section titles to render in the sidebar */}}
+                    {{if or (eq $section.Title "Skills") (eq $section.Title
+                    "Education")}}
+                    <section class="mb-10">
+                        <h2
+                            class="text-xl font-bold text-cyan-400 uppercase tracking-widest mb-4"
+                        >
+                            {{$section.Title}}
+                        </h2>
+                        {{range $section.Entries}} {{/* CORRECTED: Check against
+                        the '$section' variable's title */}} {{if eq
+                        $section.Title "Skills"}} {{/* Custom rendering for
+                        Skills to create "pills" */}}
+                        <div class="mb-4">
+                            <div class="flex flex-wrap gap-2 mt-2">
+                                {{range .Description}}
+                                <li
+                                    class="text-xs text-slate-400 font-medium px-3 py-1 rounded-full"
+                                >
+                                    {{.}}
+                                </li>
+                                {{end}}
+                            </div>
+                        </div>
+                        {{else}} {{/* Default rendering for other sidebar
+                        sections like Education */}}
+                        <div class="mb-4">
+                            <h3 class="font-bold text-slate-100">{{.Title}}</h3>
+                            <p class="text-sm text-cyan-500">{{.Subtitle}}</p>
+                            <p class="text-xs text-slate-500">{{.Period}}</p>
+                        </div>
+                        {{end}} {{end}}
+                    </section>
+                    {{end}} {{end}}
+                </aside>
+
+                <!-- === RIGHT COLUMN: THE BLUEPRINT DETAILS === -->
+                <div class="md:col-span-2">
+                    <!-- CORRECTED: Create a template variable '$section' to hold the current context -->
+                    {{range $section := .Sections}} {{/* This 'if' block renders
+                    everything that is NOT in the sidebar */}} {{if and (ne
+                    $section.Title "Skills") (ne $section.Title "Education")}}
+                    <section class="mb-12">
+                        <h2
+                            class="text-2xl font-bold text-cyan-400 uppercase tracking-widest mb-6"
+                        >
+                            {{$section.Title}}
+                        </h2>
+                        <div class="space-y-10">
+                            {{range $section.Entries}}
+                            <div>
+                                <div
+                                    class="flex flex-col sm:flex-row justify-between items-start"
+                                >
+                                    <h3 class="text-xl font-bold text-white">
+                                        {{.Title}}
+                                    </h3>
+                                    <p
+                                        class="text-sm text-slate-400 font-medium mt-1 sm:mt-0 flex-shrink-0"
+                                    >
+                                        {{.Period}}
+                                    </p>
+                                </div>
+                                <div
+                                    class="flex flex-col sm:flex-row justify-between items-start mt-1"
+                                >
+                                    <p class="font-semibold text-cyan-500">
+                                        {{.Subtitle}}
+                                    </p>
+                                    {{if .Location}}
+                                    <p
+                                        class="text-sm text-slate-500 font-medium mt-1 sm:mt-0"
+                                    >
+                                        {{.Location}}
+                                    </p>
+                                    {{end}}
+                                </div>
+                                <ul
+                                    class="list-disc pl-5 mt-4 space-y-2 text-slate-300 leading-relaxed marker:text-cyan-500"
+                                >
+                                    {{range .Description}}
+                                    <li>{{.}}</li>
+                                    {{end}}
+                                </ul>
+                            </div>
+                            {{end}}
+                        </div>
+                    </section>
+                    {{end}} {{end}}
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
